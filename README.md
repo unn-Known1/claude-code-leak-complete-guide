@@ -1,20 +1,23 @@
-# Claude Code Source Code Leak - Complete Guide & Documentation
+# Claude Code Source Code Leak
+
+## Complete Guide & Documentation
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Claude Code Leak Banner" width="100%"/>
+  <img src="https://img.shields.io/badge/Leak%20Status-Confirmed-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Date-March%2031%2C%202026-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Files-248-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Lines%20of%20Code-512%2C000%2B-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Source%20Map-59.8%20MB-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
 </p>
 
-<div align="center">
+---
 
-![Leak Status](https://img.shields.io/badge/Leak%20Status-Confirmed-brightgreen)
-![Date](https://img.shields.io/badge/Date-March%2031%2C%202026-orange)
-![Source Map Size](https://img.shields.io/badge/Source%20Map%20Size-59.8%20MB-blue)
-![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-512%2C000+-red)
-![Files](https://img.shields.io/badge/Files-248-green)
-![Platform](https://img.shields.io/badge/Platform-npm%20Registry-purple)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+## What Happened?
 
-</div>
+On **March 31, 2026**, Anthropic accidentally leaked the **entire source code** of their popular AI coding assistant **Claude Code** through their npm registry. The leak occurred when a **59.8 MB source map file (`.map`)** was inadvertently included in version 2.1.88 of the `@anthropic/claude-code` npm package.
+
+> **BREAKING**: The entire proprietary source code of one of the most popular AI coding assistants has been exposed to the public.
 
 ---
 
