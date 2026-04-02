@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#7b2cbf"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- Code lines decoration -->
+  <g opacity="0.1" fill="#00ff88" font-family="monospace" font-size="12">
+    <text x="50" y="50">{ "leaked": true }</text>
+    <text x="50" y="80">sourceMap: "./dist/bundle.js.map"</text>
+    <text x="50" y="110">version: "2.1.88"</text>
+    <text x="50" y="350">sources: ["src/main.ts", ...1900 files]</text>
+    <text x="50" y="380">linesOfCode: 512000</text>
+
+    <text x="900" y="50">npm publish @anthropic/claude-code</text>
+    <text x="900" y="80">.map file exposed</text>
+    <text x="900" y="110">March 31, 2026</text>
+  </g>
+
+  <!-- Alert icon -->
+  <circle cx="100" cy="200" r="60" fill="url(#accent)" opacity="0.2"/>
+  <text x="100" y="185" text-anchor="middle" fill="#e94560" font-size="50" font-family="Arial Black">!</text>
+  <text x="100" y="235" text-anchor="middle" fill="#e94560" font-size="24" font-family="Arial Black">LEAK</text>
+
+  <!-- Main title -->
+  <text x="250" y="170" fill="#ffffff" font-size="72" font-family="Arial Black" font-weight="bold">CLAUDE CODE</text>
+  <text x="250" y="240" fill="url(#accent)" font-size="56" font-family="Arial Black" font-weight="bold">SOURCE CODE LEAK</text>
+
+  <!-- Subtitle -->
+  <text x="250" y="300" fill="#a0a0a0" font-size="24" font-family="Arial">Complete Technical Documentation & Analysis</text>
+
+  <!-- Stats -->
+  <rect x="250" y="330" width="200" height="40" rx="8" fill="#2a2a4a"/>
+  <text x="350" y="358" text-anchor="middle" fill="#00ff88" font-size="18" font-family="Arial Black">512,000+ LINES</text>
+
+  <rect x="470" y="330" width="160" height="40" rx="8" fill="#2a2a4a"/>
+  <text x="550" y="358" text-anchor="middle" fill="#ff6b6b" font-size="18" font-family="Arial Black">59.8 MB</text>
+
+  <rect x="650" y="330" width="180" height="40" rx="8" fill="#2a2a4a"/>
+  <text x="740" y="358" text-anchor="middle" fill="#ffd93d" font-size="18" font-family="Arial Black">1,900 FILES</text>
+
+  <!-- Bottom line -->
+  <rect x="0" y="395" width="1200" height="5" fill="url(#accent)"/>
+</svg>
