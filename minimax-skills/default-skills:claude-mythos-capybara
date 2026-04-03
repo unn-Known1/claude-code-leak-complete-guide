@@ -1,0 +1,3 @@
+name: claude-mythos-capybara
+description: Expert skill on Anthropic's Claude Mythos (Capybara) - next-generation AI model with dramatically improved coding, reasoning, and cybersecurity capabilities. Use when users ask about Claude Mythos, Capybara tier, Anthropic's most powerful model, or advanced AI capabilities. (plugin:default-skills@inline)
+location: plugin
