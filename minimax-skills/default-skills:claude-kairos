@@ -1,0 +1,5 @@
+{
+  "name": "claude-kairos",
+  "description": "Expert skill on Anthropic's KAIROS autonomous agent system - always-on background intelligence that executes tasks without user prompting. Use when users ask about KAIROS, autonomous agents, background task execution, Tick Loop, SleepTool, autoDream memory consolidation, or Claude Code's proactive capabilities. (plugin:default-skills@inline)",
+  "location": "plugin"
+}
